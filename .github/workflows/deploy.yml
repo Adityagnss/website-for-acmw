@@ -28,9 +28,12 @@ jobs:
       - name: Build
         run: npm run build
 
+      - name: Copy index.html to 404.html
+        run: cp dist/index.html dist/404.html
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
-          cname: adityagnss.github.io  # Add your domain here
+          force_orphan: true
