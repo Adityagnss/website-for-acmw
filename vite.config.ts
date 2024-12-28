@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react';
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: "/website-for-acmw/", // YOUR REPO NAME HERE
+  base: "/", // Changed for local development
 });
