@@ -73,7 +73,6 @@ const Team: React.FC = () => {
     },
 
 
-    
     // Add more core team members
   ];
 
@@ -91,7 +90,7 @@ const Team: React.FC = () => {
       id: 2,
       name: "K Sri Vyshnavi",
       position: "Technical Co-Lead",
-      image: "Vyshnavi.png",
+      image: "vyshnavi.png",
       github: "https://github.com/vyshu1605",
       linkedin: "https://www.linkedin.com/in/sri-vyshnavi-kolisetty-41a202267?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
     },
@@ -177,7 +176,7 @@ const Team: React.FC = () => {
       id: 4,
       name: "Karthick S",
       position: "Board Member",
-      image: "Karthick.png",
+      image: "karthick.png",
       github: "https://github.com/Kar2027",
       linkedin: "www.linkedin.com/in/karthick-subburaj-a50998219"
     },
@@ -186,7 +185,7 @@ const Team: React.FC = () => {
       id: 5,
       name: "Karthikeya Doppalapudi",
       position: "Board Member",
-      image: "Karthik.jpeg",
+      image: "karthik.jpeg",
       github: "https://github.com/karthikeyadoppalapudi",
       linkedin: "https://www.linkedin.com/in/karthikeya-doppalapudi/"
     },
