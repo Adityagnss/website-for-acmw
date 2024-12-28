@@ -1,9 +1,19 @@
 import React from 'react';
+import { getImagePath } from '../../utils/paths';
 import UpcomingEvent from './UpcomingEvent';
 import EventCard from './EventCard';
 
+interface Event {
+  title: string;
+  date: string;
+  time: string;
+  location: string;
+  description: string;
+  image: string;
+}
+
 const Events: React.FC = () => {
-  const upcomingEvent = {
+  const upcomingEvent: Event = {
     title: "Women in Tech Summit 2025",
     date: "March 8, 2025",
     time: "9:00 AM - 5:00 PM",
@@ -12,14 +22,14 @@ const Events: React.FC = () => {
     image: "https://images.unsplash.com/photo-1540575467063-178a50c2df87?auto=format&fit=crop&q=80&w=1000"
   };
 
-  const pastEvents = [
+  const pastEvents: Event[] = [
     {
       title: "MAKEATHON 2024",
       date: "october 23 & 24, 2024",
       time: "9:00 PM - 4:00 PM",
       location: "Offline Event",
       description: "ACM-W SRM Makeathon: A Journey of Innovation and Excellence!",
-      image: "/images/makeathon.jpeg"
+      image: getImagePath("makeathon.jpeg")
     },
     {
       title: "CODEQUEST 2024",
