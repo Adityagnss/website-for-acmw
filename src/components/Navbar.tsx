@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
+import { getImagePath } from '../utils/paths';
 
-const Navbar = () => {
+const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const menuItems = [
@@ -15,15 +16,15 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="fixed w-full bg-black/30 backdrop-blur-md z-50">
+    <nav className="bg-gradient-to-r from-violet-900/80 via-pink-800/80 to-blue-900/80 backdrop-blur-md fixed w-full z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <Link to="/" className="flex items-center">
-              <img 
-                src="../pic/logo.png" 
-                alt="ACMW Logo" 
-                className="h-16 w-24 mr-3 bg-white p-1 rounded-full"
+              <img
+                className="h-12 w-auto"
+                src={getImagePath('logo.png')}
+                alt="ACM-W Logo"
               />
               <span className="text-white font-bold text-lg">ACM-W SRM</span>
             </Link>

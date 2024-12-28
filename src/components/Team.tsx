@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import { Navigation, Pagination } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
+import { getImagePath } from '../utils/paths';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
@@ -21,7 +22,7 @@ const Team: React.FC = () => {
       id: 1,
       name: "Angelin",
       position: "Chair",
-      image: "/public/images/Angelin J G.png",
+      image: "Angelin J G.png",
       github: "https://github.com/aj7764",
       linkedin: "https://www.linkedin.com/in/angelin-j-g-55ba10222/"
     },
@@ -30,7 +31,7 @@ const Team: React.FC = () => {
       id: 2,
       name: "Risa Pandey",
       position: "Vice Chair",
-      image: "/public/images/Risa Pandey.jpeg",
+      image: "Risa Pandey.jpeg",
       github: "https://github.com/rp2273",
       linkedin: "https://linkedin.com/in/johndoe"
     },
@@ -39,7 +40,7 @@ const Team: React.FC = () => {
       id: 3,
       name: "GADEY ADITYA",
       position: "Secretary",
-      image: "/public/images/Aditya.jpeg",
+      image: "Aditya.jpeg",
       github: "https://github.com/Adityagnss",
       linkedin: "https://www.linkedin.com/in/adityagnss/"
     },
@@ -48,7 +49,7 @@ const Team: React.FC = () => {
       id: 4,
       name: "Roshni Banerjee",
       position: "Treasurer",
-      image: "/public/images/Roshni Banerjee.jpeg",
+      image: "Roshni Banerjee.jpeg",
       github: "https://github.com/RoshniBanerjee",
       linkedin: "https://linkedin.com/in/johndoe"
     },
@@ -57,7 +58,7 @@ const Team: React.FC = () => {
       id: 5,
       name: "Meghavi Rathod",
       position: "Membership Chair",
-      image: "/public/images/Meghavi Rathod .jpeg",
+      image: "Meghavi Rathod .jpeg",
       github: "https://github.com/RA2112704010012",
       linkedin: "https://www.linkedin.com/in/meghavi-rathod-a82755286/"
     },
@@ -66,7 +67,7 @@ const Team: React.FC = () => {
       id: 6,
       name: "Sathwika Badigi",
       position: "Webmaster",
-      image: "/public/images/Sathwika Badigi.png",
+      image: "Sathwika Badigi.png",
       github: "https://github.com",
       linkedin: "https://www.linkedin.com/in/sathwika-badigi-151a03220/"
     },
@@ -81,7 +82,7 @@ const Team: React.FC = () => {
       id: 1,
       name: "GADEY ADITYA",
       position: "Technical Lead",
-      image: "/public/images/Aditya.jpeg",
+      image: "Aditya.jpeg",
       github: "https://github.com/Adityagnss",
       linkedin: "https://www.linkedin.com/in/adityagnss/"
     },
@@ -90,7 +91,7 @@ const Team: React.FC = () => {
       id: 2,
       name: "K Sri Vyshnavi",
       position: "Technical Co-Lead",
-      image: "/public/images/Vyshnavi.png",
+      image: "Vyshnavi.png",
       github: "https://github.com/vyshu1605",
       linkedin: "https://www.linkedin.com/in/sri-vyshnavi-kolisetty-41a202267?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
     },
@@ -99,7 +100,7 @@ const Team: React.FC = () => {
       id: 3,
       name: "Narem Mounish Reddy",
       position: "Corporate Lead",
-      image: "/public/images/profile-pic.png",
+      image: "profile-pic.png",
       github: "https://github.com/mounish27",
       linkedin: "https://www.linkedin.com/in/narem-mounish-reddy"
     },
@@ -108,7 +109,7 @@ const Team: React.FC = () => {
       id: 4,
       name: "Sunkesula Thaniya",
       position: "Corporate Co-Lead",
-      image: "/public/images/thaniya.png",
+      image: "thaniya.png",
       github: "https://github.com/mounish27",
       linkedin: "https://www.linkedin.com/in/narem-mounish-reddy"
     },
@@ -117,7 +118,7 @@ const Team: React.FC = () => {
       id: 5,
       name: "Sasikiran.B",
       position: "Events Lead",
-      image: "/public/images/sasi.png",
+      image: "sasi.png",
       github: "https://github.com/SasikiranBandaru",
       linkedin: "https://www.linkedin.com/in/sasi-kiran-9b9306291?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
     },
@@ -126,7 +127,7 @@ const Team: React.FC = () => {
       id: 6,
       name: "Keerthi varsha",
       position: "Events Co-Lead",
-      image: "/public/images/keerthi.png",
+      image: "keerthi.png",
       github: "https://github.com/keerthiRA2211003011598",
       linkedin: "https://www.linkedin.com/in/keerthi-varsha-0450122a3/"
     },
@@ -135,7 +136,7 @@ const Team: React.FC = () => {
       id: 7,
       name: "Jaswanth Rabbagunda",
       position: "Creatives Lead",
-      image: "/public/images/jashu.jpeg",
+      image: "jashu.jpeg",
       github: "https://github.com/Jaswanth-rabbagunda",
       linkedin: "https://www.linkedin.com/in/jaswanth-rabbagunda-54670a29a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
     },
@@ -149,7 +150,7 @@ const Team: React.FC = () => {
       id: 1,
       name: "Drisana Saikia",
       position: "Board Member",
-      image: "/public/images/DrisanaSaikia.jpeg",
+      image: "DrisanaSaikia.jpeg",
       github: "https://github.com/drisana95",
       linkedin: "https://www.linkedin.com/in/drisana-saikia-0a6818273/"
     },
@@ -158,7 +159,7 @@ const Team: React.FC = () => {
       id: 2,
       name: "K.Jaswanth Reddy",
       position: "Board Member",
-      image: "/public/images/Jaswanth .jpeg",
+      image: "Jaswanth .jpeg",
       github: "https://github.com/JaswanthReddy5",
       linkedin: "https://www.linkedin.com/in/jaswant-reddy-502b682b6?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
     },
@@ -167,7 +168,7 @@ const Team: React.FC = () => {
       id: 3,
       name: "Sriram Nagendra",
       position: "Board Member",
-      image: "/public/images/Nagendra.jpeg",
+      image: "Nagendra.jpeg",
       github: "https://github.com/Nagendrasriram",
       linkedin: "www.linkedin.com/in/nagendrasriram103"
     },
@@ -176,7 +177,7 @@ const Team: React.FC = () => {
       id: 4,
       name: "Karthick S",
       position: "Board Member",
-      image: "/public/images/Karthick.png",
+      image: "Karthick.png",
       github: "https://github.com/Kar2027",
       linkedin: "www.linkedin.com/in/karthick-subburaj-a50998219"
     },
@@ -185,7 +186,7 @@ const Team: React.FC = () => {
       id: 5,
       name: "Karthikeya Doppalapudi",
       position: "Board Member",
-      image: "/public/images/Karthik.jpeg",
+      image: "Karthik.jpeg",
       github: "https://github.com/karthikeyadoppalapudi",
       linkedin: "https://www.linkedin.com/in/karthikeya-doppalapudi/"
     },
@@ -213,7 +214,7 @@ const Team: React.FC = () => {
         <SwiperSlide key={member.id}>
           <div className="bg-white rounded-xl shadow-xl p-6 text-center transform transition-transform duration-300 hover:scale-105">
             <img
-              src={member.image}
+              src={getImagePath(member.image)}
               alt={member.name}
               className="w-32 h-32 md:w-40 md:h-40 rounded-full mx-auto mb-4 object-cover border-4 border-blue-500 hover:border-blue-600"
             />
