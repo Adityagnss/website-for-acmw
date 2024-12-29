@@ -110,7 +110,7 @@ const Team: React.FC = () => {
       position: "Corporate Co-Lead",
       image: "thaniya.png",
       github: "https://github.com/Thaniya13",
-      linkedin: "www.linkedin.com/in/thaniya-sunkesula-073771267"
+      linkedin: "https://www.linkedin.com/in/thaniya-sunkesula-073771267/"
     },
 
     {
