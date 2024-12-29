@@ -33,7 +33,7 @@ const Team: React.FC = () => {
       position: "Vice Chair",
       image: "Risa Pandey.jpeg",
       github: "https://github.com/rp2273",
-      linkedin: "https://linkedin.com/in/johndoe"
+      linkedin: "https://in.linkedin.com/in/risa-pandey-88862a290/"
     },
 
     {
