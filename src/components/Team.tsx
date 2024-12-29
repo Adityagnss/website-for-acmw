@@ -169,7 +169,7 @@ const Team: React.FC = () => {
       position: "Board Member",
       image: "Nagendra.jpeg",
       github: "https://github.com/Nagendrasriram",
-      linkedin: "www.linkedin.com/in/nagendrasriram103"
+      linkedin: "https://www.linkedin.com/in/nagendrasriram103/"
     },
 
     {
@@ -178,7 +178,7 @@ const Team: React.FC = () => {
       position: "Board Member",
       image: "karthick.png",
       github: "https://github.com/Kar2027",
-      linkedin: "www.linkedin.com/in/karthick-subburaj-a50998219"
+      linkedin: "https://www.linkedin.com/in/karthick-subburaj-a50998219/"
     },
 
     {
