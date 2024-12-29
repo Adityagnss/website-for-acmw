@@ -68,8 +68,8 @@ const Team: React.FC = () => {
       name: "Sathwika Badigi",
       position: "Webmaster",
       image: "Sathwika Badigi.png",
-      github: "https://github.com",
-      linkedin: "https://www.linkedin.com/in/sathwika-badigi-151a03220/"
+      github: "https://github.com/RA2112704010032",
+      linkedin: "https://www.linkedin.com/in/sathwika-badigi-151a03220?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
     },
 
 
