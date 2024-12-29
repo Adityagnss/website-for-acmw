@@ -51,7 +51,7 @@ const Team: React.FC = () => {
       position: "Treasurer",
       image: "Roshni Banerjee.jpeg",
       github: "https://github.com/RoshniBanerjee",
-      linkedin: "https://linkedin.com/in/johndoe"
+      linkedin: "https://www.linkedin.com/in/roshni-banerjee-a6719b24b/"
     },
 
     {
@@ -109,8 +109,8 @@ const Team: React.FC = () => {
       name: "Sunkesula Thaniya",
       position: "Corporate Co-Lead",
       image: "thaniya.png",
-      github: "https://github.com/mounish27",
-      linkedin: "https://www.linkedin.com/in/narem-mounish-reddy"
+      github: "https://github.com/Thaniya13",
+      linkedin: "www.linkedin.com/in/thaniya-sunkesula-073771267"
     },
 
     {
